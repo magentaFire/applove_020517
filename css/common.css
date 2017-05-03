@@ -86,6 +86,25 @@ header {
   letter-spacing: 2px;
 }
 
+.work-title {
+  margin-left: 45%;
+  margin-right: 45%;
+  margin-top: 50px;
+}
+
+.work-description {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.img-work {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 50px;
+}
+
 footer {
   text-align: center;
   height: 70px;
