@@ -1,17 +1,15 @@
 var images = document.getElementsByClassName("workImage");
 var btnCerrar = document.getElementsByClassName("close");
+var modalCont = document.getElementById("modalCont");
 
 for (var i = 0; i < images.length; i++) {
   images[i].addEventListener("click", modal);
 }
 
-for (var i = 0; i < btnCerrar.length; i++) {
-  btnCerrar[i].addEventListener("click", cerrarModal);
-}
-
 function modal() {
-  this.style.display = "block";
-  console.log("holi");
+  modalCont.style.display = "block";
+  images.src = this.src;
+  console.log("holi1");
 }
 
 function cerrarModal() {
